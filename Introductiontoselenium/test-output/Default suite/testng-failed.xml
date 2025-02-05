@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumcodes.allops">
+      <class name="seleniumcodes.autodropdowns">
         <methods>
-          <include name="testDropdownsAndSelections"/>
-          <include name="tearDown"/>
+          <include name="testAutoSuggestDropdown"/>
           <include name="setup"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- seleniumcodes.allops -->
+      </class> <!-- seleniumcodes.autodropdowns -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
