@@ -15,6 +15,7 @@ public class alerts {
     public void setup() {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
+        System.out.print("Welcome to selenium");
         driver.get("https://rahulshettyacademy.com/AutomationPractice/");
     }
 
